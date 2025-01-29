@@ -5,6 +5,5 @@
 @theme {
     --font-firacode: "Fira Code", "sans-serif";
 
-    --color-primary: #30C124;
-    --color-gray: #ABB2BF;
+    --color-background: #282C33;
 }

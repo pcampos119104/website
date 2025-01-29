@@ -6,26 +6,47 @@
     <link href="./output.css" rel="stylesheet">
     <title>asdf</title>
 </head>
-<body class="bg-[#282C33] flex flex-col px-24 font-firacode">
+<body class="bg-background flex flex-col px-24 font-firacode">
 <!-- Header -->
 <header class="h-16 flex flex-col-reverse ">
     <div class="flex flex-row place-content-between">
-        <p class="font-bold text-primary "> \Pedro Campos</p>
+        <p class="font-bold text-green-500 "> \Pedro Campos</p>
         <div class="flex flex-row space-x-10">
-            <a href="#" class="text-gray"><span class="text-primary">#</span>home</a>
-            <a href="#"  class="text-gray"><span class="text-primary">#</span>works</a>
-            <a href="#"  class="text-gray"><span class="text-primary">#</span>about-me</a>
-            <a href="#"  class="text-gray"><span class="text-primary">#</span>contacts</a>
-            <p class="text-gray">EN</p>
+            <a href="#" class="text-gray-400"><span class="text-green-500">#</span>home</a>
+            <a href="#" class="text-gray-400"><span class="text-green-500">#</span>works</a>
+            <a href="#" class="text-gray-400"><span class="text-green-500">#</span>about-me</a>
+            <a href="#" class="text-gray-400"><span class="text-green-500">#</span>contacts</a>
+            <p class="text-gray-400">EN</p>
         </div>
     </div>
 </header>
 
 <!-- Hero -->
-<section>Hero</section>
+<section class="grid grid-cols-2 gap-2 text-white mt-20">
+    <div>
+        <p class="text-4xl font-semibold">Pedro is a <span class="text-green-500">web developer</span> and front-end
+            developer</p>
+        <p class="text-gray-400 mt-10 mb-6">He crafts responsive websites where technologies meet creativity</p>
+        <a href="#" class="border border-green-500 p-1 px-2 hover:bg-green-500/25 font-medium">Contact me!!</a>
+    </div>
+    <div class="w-[457px] h-[386px]">
+        <img src="https://placehold.co/457x386/green/white" alt="">
+    </div>
+</section>
 
 <!-- Quote -->
-<section>Quote</section>
+<section class="flex mt-16 place-content-center">
+    <div class="flex flex-col w-fit">
+        <div class="relative border border-gray-400">
+            <span class="absolute -top-4 left-2 text-6xl h-7 text-gray-400 bg-background">"</span>
+            <p class="text-white m-4">Simplicity is the ultimate sophistication.</p>
+            <span class="absolute -bottom-4 right-2 text-6xl h-7 text-gray-400 bg-background">"</span>
+        </div>
+        <div class="relative border-x border-b border-gray-400 w-fit self-end">
+            <p class="text-white m-2 align-self-end">Leonardo da Vinci</p>
+        </div>
+    </div>
+</section>
 
 <!-- Projects -->
 <section>Pro</section>
