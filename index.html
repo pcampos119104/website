@@ -4,40 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
-    <title>asdf</title>
+    <title>/Pedro Campos</title>
 </head>
-<body class="bg-background flex flex-col px-24 font-firacode">
+<body class="bg-background flex flex-col items-center max-w-[1024px] m-auto px-24 font-firacode">
 <!-- Header -->
-<header class="h-16 flex flex-col-reverse ">
-    <div class="flex flex-row place-content-between">
-        <p class="font-bold text-green-500 "> \Pedro Campos</p>
+<header class="h-16 flex flex-col-reverse w-full ">
+    <div class="flex flex-row justify-between">
+        <p class="font-bold text-primary "> \Pedro Campos</p>
         <div class="flex flex-row space-x-10">
-            <a href="#" class="text-gray-400"><span class="text-green-500">#</span>home</a>
-            <a href="#" class="text-gray-400"><span class="text-green-500">#</span>works</a>
-            <a href="#" class="text-gray-400"><span class="text-green-500">#</span>about-me</a>
-            <a href="#" class="text-gray-400"><span class="text-green-500">#</span>contacts</a>
+            <a href="#" class="text-gray-400 before:content-['#'] before:text-primary">home</a>
+            <a href="#" class="text-gray-400 before:content-['#'] before:text-primary">works</a>
+            <a href="#" class="text-gray-400 before:content-['#'] before:text-primary">about-me</a>
+            <a href="#" class="text-gray-400 before:content-['#'] before:text-primary">contacts</a>
             <p class="text-gray-400">EN</p>
         </div>
     </div>
 </header>
 
 <!-- Hero -->
-<section class="grid grid-cols-2 gap-2 text-white mt-20">
+<section class="grid grid-cols-2 gap-2 text-white mt-20 w-full">
     <div>
-        <p class="text-4xl font-semibold">Pedro is a <span class="text-green-500">web developer</span> and front-end
+        <p class="text-4xl font-semibold">Pedro is a <span class="text-primary">web developer</span> and front-end
             developer</p>
         <p class="text-gray-400 mt-10 mb-6">He crafts responsive websites where technologies meet creativity</p>
-        <a href="#" class="border border-green-500 p-1 px-2 hover:bg-green-500/25 font-medium">Contact me!!</a>
+        <a href="#" class="border border-primary p-1 px-2 hover:bg-primary/25 font-medium">Contact me!!</a>
     </div>
-    <div class="w-[457px] h-[386px]">
+    <div class="w-max-[457px] h-max-[386px]">
         <img src="https://placehold.co/457x386/green/white" alt="">
     </div>
 </section>
 
 <!-- Quote -->
-<section class="flex mt-16 place-content-center">
+<section class="flex mt-16 place-content-center w-full">
     <div class="flex flex-col w-fit">
-        <div class="relative border border-gray-400">
+        <div class="relative border font-semibold border-gray-400 text-2xl">
             <span class="absolute -top-4 left-2 text-6xl h-7 text-gray-400 bg-background">"</span>
             <p class="text-white m-4">Simplicity is the ultimate sophistication.</p>
             <span class="absolute -bottom-4 right-2 text-6xl h-7 text-gray-400 bg-background">"</span>
@@ -48,27 +48,175 @@
     </div>
 </section>
 
-<!-- Skills -->
-<section class="flex flex-col mt-16 text-white">
+<!-- About me -->
+<section class="flex flex-col mt-16 text-white w-full">
     <div class="flex gap-4">
-        <h2 class="text-3xl font-medium before:content-['#'] before:text-green-500">skills</h2>
-        <hr class="w-48 border-1 border-green-500 self-center">
+        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">about me</h2>
+        <hr class="w-48 border-1 border-primary self-center">
     </div>
-    <div>
+    <div class="flex gap-4 place-content-between">
+        <div>
+            <p>Python/Django developer primarily with HTMX, Tailwind css and Alpinejs and second REST back end with
+                DRF</p>
+            <p>Degrees in system analysis and development. Started working with development in 2013 with Java, Python
+                since
+                2020.</p>
+        </div>
+        <div class="w-max-[457px] h-max-[386px]">
+            <img src="https://placehold.co/457x386/green/white" alt="">
+        </div>
     </div>
-
 </section>
 
-<!-- Projects -->
-<section>Pro</section>
+<!-- Skills -->
+<section class="flex flex-col mt-16 text-white w-full">
+    <div class="flex gap-4">
+        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">skills</h2>
+        <hr class="w-48 border-1 border-primary self-center">
+    </div>
+    <div class="flex gap-3">
+        <img class="w-2/5 h-fit" src="img/skills.png" alt="skills">
+        <div class="grid grid-cols-3 gap-4">
+            <div class="w-40 h-fit border border-gray-400">
+                <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Languages</p>
+                <div class=" px-2 py-1 text-gray-400 text-sm">
+                    <p>Python</p>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+            <div class="w-40 h-fit border border-gray-400">
+                <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Database</p>
+                <div class=" px-2 py-1 text-gray-400 text-sm">
+                    <p>PostgreSQL</p>
+                    <p>SQLite</p>
+                </div>
+            </div>
+            <div class="w-40 h-fit border border-gray-400">
+                <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Tools</p>
+                <div class=" px-2 py-1 text-gray-400 text-sm">
+                    <p>Pycharm</p>
+                    <p>Marimo</p>
+                </div>
+            </div>
+            <div class="w-40 h-fit border border-gray-400">
+                <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Frameworks</p>
+                <div class=" px-2 py-1 text-gray-400 text-sm">
+                    <p>Django</p>
+                    <p>HTMX</p>
+                    <p>Alpinejs</p>
+                    <p>Tailwindcss</p>
+                    <p>DRF</p>
+                </div>
+            </div>
+            <div class="w-40 h-fit border border-gray-400">
+                <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Devops</p>
+                <div class=" px-2 py-1 text-gray-400 text-sm">
+                    <p>GitHub Actions Git Docker docker-compose Digital Ocean Heroku fly.io Dokploy</p>
+                </div>
+            </div>
 
+            <div class="w-40 h-fit border border-gray-400">
+                <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Others</p>
+                <div class=" px-2 py-1 text-gray-400 text-sm">
+                    <p>Advanced english</p>
+                    <p>GNU/Linux</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!-- About-me -->
-<section>Abou</section>
+<!-- Experience -->
+<section class="flex flex-col mt-16 text-white w-full">
+    <div class="flex gap-4">
+        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">last relevant experiences</h2>
+        <hr class="w-48 border-1 border-primary self-center">
+    </div>
+    <div class="space-y-1">
+        <div class="flex justify-between mt-4">
+            <h3 class="font-bold">WEB DEVELOPER</h3>
+            <p class="text-primary">July 2023 - February 2024</p>
+        </div>
+        <p class="text-gray-400 font-semibold">TITAN, REMOTE, COLORADO, EUA</p>
+        <p class="text-gray-400">It's been in 2 projects for the website nofie.com; I’ve worked in the “frontend”
+            portion of the app.</p>
+        <p class="text-gray-400">One with Wagtail created a lot of layouts with Tailwind, following a Figma design by a
+            designer. The goal was to create a blog for the product.</p>
+        <p class="text-gray-400">The other project was a pure Django project to build the product itself. I worked with
+            Django, HTMX, Tailwind CSS, JS, AlpineJS, MapBox, DaterangerPicker, and Handlebars. Figma specifications
+            were created by a designer and implemented all by myself.</p>
+        </p>
+    </div>
+    <div class="space-y-1 mt-10">
+        <div class="flex justify-between mt-2">
+            <h3 class="font-bold">BACKEND DEVELOPER</h3>
+            <p class="text-primary">February 2022 - April 2023</p>
+        </div>
+        <p class="text-gray-400 font-semibold">XNV, REMOTE, TEXAS, EUA</p>
+        <p class="text-gray-400">Backend Python developer using Django Rest Framework and following the Restful
+            architecture.</p>
+        <p class="text-gray-400">Responsible for analysis and implementation of new features in the system, bug
+            corrections.</p>
+        <p class="text-gray-400">I've the initiative to update the code to use Pytest, Pre-commit, sphynx, jupyterLab(on
+            django kernel) Swagger and docker compose to improve system health and team agility.</p>
+    </div>
+    <div class="space-y-1 mt-10">
+        <div class="flex justify-between mt-2">
+            <h3 class="font-bold">WEB DEVELOPER</h3>
+            <p class="text-primary">January 2021 - January 2022</p>
+        </div>
+        <p class="text-gray-400 font-semibold">CLINT, REMOTE, SÃO PAULO, BRAZIL</p>
+        <p class="text-gray-400">Working with Python and Django using a django template and a little javascript, using
+            Postgres too. Initiative to implement Docker and Docker compose, pytest and documentation.</p>
+        <p class="text-gray-400">Built small side projects for the company using python, peewee orm with sqlite and
+            Click
+            for input.</p>
+    </div>
+</section>
 
-<!-- Contacts -->
-<section>Con</section>
+<!-- Interests -->
+<section class="flex flex-col mt-16 text-white w-full">
+    <div class="flex gap-4">
+        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">interests</h2>
+        <hr class="w-48 border-1 border-primary self-center">
+    </div>
+    <div>
+        <p>Placeholder</p>
+    </div>
+</section>
 
+<!-- Contact -->
+<section class="flex flex-col mt-16 text-white w-full">
+    <div class="flex gap-4">
+        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">contact</h2>
+        <hr class="w-48 border-1 border-primary self-center">
+    </div>
+    <div>
+        <p>Sao Paulo, Brazil</p>
+        <p>pcampos119104@gmail.com</p>
+        <p>55 (11)98675-6875</p>
+        <p></p>
+    </div>
+</section>
+<!-- Media -->
+<section class="flex flex-col mt-16 text-white w-full">
+    <div class="flex gap-4">
+        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">media</h2>
+        <hr class="w-48 border-1 border-primary self-center">
+    </div>
+    <div>
+        <p>
+            linkedin.com/in/pcampos119104
+        </p>
+        <p>
+            github.com/pcampos119104
+        </p>
+        <p>
+            dev.to/pcampos119104
+        </p>
+
+    </div>
+</section>
 <!-- Footer -->
 <footer>
     <p class="text-4xl">Footer</p>
