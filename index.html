@@ -6,9 +6,9 @@
     <link href="./output.css" rel="stylesheet">
     <title>/Pedro Campos</title>
 </head>
-<body class="bg-background flex flex-col items-center max-w-[1024px] m-auto px-24 font-firacode">
+<body class="bg-background flex flex-col items-center max-w-[1024px] m-auto px-4 lg:px-24 font-firacode">
 <!-- Header -->
-<header class="h-16 flex flex-col-reverse w-full">
+<header class="hidden h-16 lg:flex flex-col-reverse w-full">
     <div class="flex flex-row justify-between">
         <p class="font-bold text-primary "> \Pedro Campos</p>
         <div class="flex flex-row space-x-10">
@@ -22,7 +22,7 @@
 </header>
 
 <!-- Hero -->
-<section class="flex gap-2 text-white mt-20 w-full">
+<section class="flex flex-col-reverse lg:flex-row gap-2 text-white mt-20 w-full">
     <div>
         <p class="text-4xl font-semibold">
             Pedro is a <span class="text-primary">web developer</span> specializing in <span
@@ -30,7 +30,7 @@
         </p>
         <p class="text-gray-400 mt-10 mb-6">He crafts modern, dynamic applications with HTMX, Alpine.js, and
             TailwindCSS.</p>
-        <a href="#" class="border border-primary p-1 px-2 hover:bg-primary/25 font-medium">Contact me!!</a>
+        <a href="#contact" class="border border-primary p-1 px-2 hover:bg-primary/25 font-medium">Contact me!!</a>
     </div>
     <div class="w-max-[457px] h-max-[386px]">
         <img src="https://placehold.co/457x386/green/white" alt="">
@@ -57,19 +57,27 @@
         <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">about me</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
-    <div class="flex gap-4 place-content-between mt-4">
-        <div class="w-3/5 text-gray-400">
+    <div class="flex flex-col-reverse lg:flex-row gap-4 place-content-between mt-4">
+        <div class="lg:w-3/5 text-gray-400">
             <p>With a degree in System Analysis and Development, I’ve been in software development since 2013,
                 transitioning to Python in 2020. I specialize in Python/Django with HTMX, Tailwind CSS, and Alpine.js,
                 embracing the philosophy that “less is more.”</p>
 
             <p>Currently, I’m expanding my DevOps skills with Dokploy to become a more complete developer. I enjoy
-                sharing knowledge through my blog on Dev.to and continuously refining my craft.</p>
-            <p>You can find my work on GitHub.</p>
+                sharing knowledge through my blog on
+
+                <a href="https://dev.to/pcampos119104" target="_blank"
+                   class="font-medium underline decoration-primary hover:decoration-2">
+                    Dev.to
+                </a>
+                and continuously refining my craft.</p>
+            <p>You can find my work on <a href="https://github.com/pcampos119104" target="_blank"
+               class="font-medium underline decoration-primary hover:decoration-2">
+                Github</a>.</p>
 
         </div>
-        <div class="w-2/5 h-fit w-max-[457px] h-max-[386px]">
-            <img src="https://placehold.co/457x386/green/white" alt="">
+        <div class="lg:w-2/5 h-fit w-max-[457px] h-max-[386px]">
+            <img src="img/perfil_social_bw.webp" alt="">
         </div>
     </div>
 </section>
@@ -80,31 +88,31 @@
         <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">skills</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
-    <div class="flex gap-3 mt-4">
-        <img class="w-2/5 h-fit" src="img/skills.png" alt="skills">
-        <div class="grid grid-cols-3 gap-4">
-            <div class="w-40 h-fit border border-gray-400">
+    <div class="flex gap-3 mt-4 place-content-center">
+        <img class="hidden lg:block w-2/5 h-fit" src="img/skills.png" alt="skills">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Languages</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>Python</p>
                     <p>JavaScript</p>
                 </div>
             </div>
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Database</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>PostgreSQL</p>
                     <p>SQLite</p>
                 </div>
             </div>
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Tools</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>Pycharm</p>
                     <p>Marimo</p>
                 </div>
             </div>
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Frameworks</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>Django</p>
@@ -114,14 +122,14 @@
                     <p>DRF</p>
                 </div>
             </div>
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Devops</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>GitHub Actions Git Docker docker-compose Digital Ocean Heroku fly.io Dokploy</p>
                 </div>
             </div>
 
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Others</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>Advanced english</p>
@@ -139,7 +147,7 @@
         <hr class="w-48 border-1 border-primary self-center">
     </div>
     <div class="space-y-1">
-        <div class="flex justify-between mt-4">
+        <div class="flex flex-col lg:flex-row justify-between mt-4">
             <h3 class="font-bold">WEB DEVELOPER</h3>
             <p class="text-primary">July 2023 - February 2024</p>
         </div>
@@ -154,7 +162,7 @@
         </p>
     </div>
     <div class="space-y-1 mt-10">
-        <div class="flex justify-between mt-2">
+        <div class="flex flex-col lg:flex-row justify-between mt-2">
             <h3 class="font-bold">BACKEND DEVELOPER</h3>
             <p class="text-primary">February 2022 - April 2023</p>
         </div>
@@ -167,7 +175,7 @@
             django kernel) Swagger and docker compose to improve system health and team agility.</p>
     </div>
     <div class="space-y-1 mt-10">
-        <div class="flex justify-between mt-2">
+        <div class="flex flex-col lg:flex-row justify-between mt-2">
             <h3 class="font-bold">WEB DEVELOPER</h3>
             <p class="text-primary">January 2021 - January 2022</p>
         </div>
@@ -187,12 +195,16 @@
         <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">contact</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
-    <div class="grid grid-cols-2 gap-y-2 mt-4">
+    <div class="grid lg:grid-cols-2 gap-y-2 mt-4">
         <p class="before:content-['>'] before:text-green-500 before:font-bold">
             <span class="font-bold">Location: </span>São Paulo, Brazil
         </p>
-        <p class="before:content-['>'] before:text-green-500 before:font-bold">
-            <span class="font-bold">Whatsapp/Phone: </span>55 (11)98675-6875
+        <p class="before:content-['>'] before:text-green-500 font-bold">
+            Whatsapp:
+            <a href="https://wa.me/5511986756875" target="_blank"
+               class="font-medium underline decoration-primary hover:decoration-2">
+                55(11)98675-6875
+            </a>
         </p>
         <p class="before:content-['>'] before:text-green-500 font-bold">
             Email:
