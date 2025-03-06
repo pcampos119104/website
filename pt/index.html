@@ -6,9 +6,9 @@
     <link href="./../output.css" rel="stylesheet">
     <title>/Pedro Campos</title>
 </head>
-<body class="bg-background flex flex-col items-center max-w-[1024px] m-auto px-24 font-firacode">
+<body class="bg-background flex flex-col items-center max-w-[1024px] m-auto px-4 lg:px-24 font-firacode">
 <!-- Header -->
-<header class="h-16 flex flex-col-reverse w-full">
+<header class="hidden h-16 lg:flex flex-col-reverse w-full">
     <div class="flex flex-row justify-between">
         <p class="font-bold text-primary "> \Pedro Campos</p>
         <div class="flex flex-row space-x-10">
@@ -22,7 +22,7 @@
 </header>
 
 <!-- Hero -->
-<section class="flex gap-2 text-white mt-20 w-full">
+<section class="flex flex-col-reverse lg:flex-row gap-2 text-white mt-20 w-full">
     <div>
         <p class="text-4xl font-semibold">
             Pedro é um <span class="text-primary">desenvolvedor web</span> especializado em <span class="text-primary">Django</span>
@@ -56,8 +56,8 @@
         <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">Sobre</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
-    <div class="flex gap-4 place-content-between mt-4">
-        <div class="w-3/5 text-gray-400">
+    <div class="flex flex-col-reverse lg:flex-row gap-4 place-content-between mt-4">
+        <div class="lg:w-3/5 text-gray-400">
             <p></p>
             <p>Com graduação em Análise e Desenvolvimento de Sistemas e desenvolvendo desde 2013,
                 sendo com Python desde 2020. Especializado em Python/Django com HTMLX, Tailwind CSS e
@@ -100,30 +100,30 @@
         <hr class="w-48 border-1 border-primary self-center">
     </div>
     <div class="flex gap-3 mt-4">
-        <img class="w-2/5 h-fit" src="../img/skills.png" alt="skills">
-        <div class="grid grid-cols-3 gap-4">
-            <div class="w-40 h-fit border border-gray-400">
+        <img class="hidden lg:block w-2/5 h-fit" src="../img/skills.png" alt="skills">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Linguagem</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>Python</p>
                     <p>JavaScript</p>
                 </div>
             </div>
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Banco de dados</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>PostgreSQL</p>
                     <p>SQLite</p>
                 </div>
             </div>
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Ferramentas</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>Pycharm</p>
                     <p>Marimo</p>
                 </div>
             </div>
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Frameworks</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>Django</p>
@@ -134,14 +134,14 @@
                     <p>DRF</p>
                 </div>
             </div>
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Devops</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>GitHub Actions Git Docker docker-compose Digital Ocean Heroku fly.io Dokploy</p>
                 </div>
             </div>
 
-            <div class="w-40 h-fit border border-gray-400">
+            <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Outros</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
                     <p>Inglês avançado</p>
@@ -159,7 +159,7 @@
         <hr class="w-48 border-1 border-primary self-center">
     </div>
     <div class="space-y-1">
-        <div class="flex justify-between mt-4">
+        <div class="flex flex-col lg:flex-row justify-between mt-4">
             <h3 class="font-bold">WEB DEVELOPER</h3>
             <p class="text-primary">July 2023 - February 2024</p>
         </div>
@@ -174,7 +174,7 @@
         </p>
     </div>
     <div class="space-y-1 mt-10">
-        <div class="flex justify-between mt-2">
+        <div class="flex flex-col lg:flex-row justify-between mt-2">
             <h3 class="font-bold">BACKEND DEVELOPER</h3>
             <p class="text-primary">February 2022 - April 2023</p>
         </div>
@@ -187,7 +187,7 @@
             django kernel) Swagger and docker compose to improve system health and team agility.</p>
     </div>
     <div class="space-y-1 mt-10">
-        <div class="flex justify-between mt-2">
+        <div class="flex flex-col lg:flex-row justify-between mt-2">
             <h3 class="font-bold">WEB DEVELOPER</h3>
             <p class="text-primary">January 2021 - January 2022</p>
         </div>
@@ -204,10 +204,10 @@
 <!-- Contact -->
 <section id="contact" class="flex flex-col mt-16 text-white w-full">
     <div class="flex gap-4">
-        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">contact</h2>
+        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">contato</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
-    <div class="grid grid-cols-2 gap-y-2 mt-4">
+    <div class="grid lg:grid-cols-2 gap-y-2 mt-4">
         <div class="flex space-x-1 before:content-['>'] before:text-green-500 before:font-bold">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                  class="fill-gray-100 size-6">
@@ -216,7 +216,7 @@
                       clip-rule="evenodd"/>
             </svg>
 
-            <p>São Paulo, Brazil</p>
+            <p>São Paulo, Brasil</p>
         </div>
         <div class="flex space-x-1 before:content-['>'] before:text-green-500 before:font-bold">
             <svg class="fill-gray-100 size-6" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
