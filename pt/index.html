@@ -12,8 +12,8 @@
     <div class="flex flex-row justify-between">
         <p class="font-bold text-primary "> \Pedro Campos</p>
         <div class="flex flex-row space-x-10">
-            <a href="#aboutme" class="text-gray-400 before:content-['#'] before:text-primary">sobre</a>
             <a href="#skills" class="text-gray-400 before:content-['#'] before:text-primary">habilidades</a>
+            <a href="#projects" class="text-gray-400 before:content-['#'] before:text-primary">projetos</a>
             <a href="#experience" class="text-gray-400 before:content-['#'] before:text-primary">experiências</a>
             <a href="#contact" class="text-gray-400 before:content-['#'] before:text-primary">contato</a>
             <a href="../index.html" class="text-gray-400 ">English</a>
@@ -28,8 +28,8 @@
             Pedro é um <span class="text-primary">desenvolvedor Python</span> especializado em <span class="text-primary">Django</span>
             e expandindo para <span class="text-primary">Sistemas agenticos</span>
         </p>
-        <p class="text-gray-400 mt-10 mb-6">Ele constroi aplicações modernas com HTMX, Alpine.js, e TailwindCSS.</p>
-        <a href="#" class="border border-primary p-1 px-2 hover:bg-primary/25 font-medium">Fale comigo!!</a>
+        <p class="text-gray-400 mt-10 mb-6">Ele constroi aplicações web modernas e dinâmicas com HTMX, Alpine.js, e TailwindCSS e sistemas agenticos com Crewai.</p>
+        <a href="#contact" class="border border-primary p-1 px-2 hover:bg-primary/25 font-medium">Fale comigo!!</a>
     </div>
     <div class="max-w-[300px] max-h-[300px] overflow-hidden self-center lg:self-auto border-b-2 border-primary ">
         <img class="" src="../img/perfil_social_bw.webp" alt="">
@@ -58,22 +58,14 @@
     </div>
     <div class="flex flex-col-reverse lg:flex-row gap-4 place-content-between mt-4">
         <div class="lg:w-3/5 text-gray-400">
-            <p></p>
-            <p>Com graduação em Análise e Desenvolvimento de Sistemas e desenvolvendo desde 2013,
-                sendo com Python desde 2020. Especializado em Python/Django com HTMLX, Tailwind CSS e
-                Alpine.js,
-                abraçando a filosofia de que "menos é mais".</p>
+            <p>Desenvolvedor Python especializado em Django, com HTMX, Tailwind CSS e Alpine.js,
+                usando apenas Python desde 2020.</p>
 
-            <p>Atualmente estou expandindo meus conhecimentos em DevOps com Dokploy para me tornar um desenvolvedor mais
-                completo.
-                Gosto de publicar o que aprendo no meu blog no
-                <a href="https://dev.to/pcampos119104" target="_blank"
-                   class="font-medium underline decoration-primary hover:decoration-2">
-                    Dev.to</a>.
+            <p>Atualmente, estou expandindo para Sistemas Agenticos usando CrewAI para melhores soluções em
+                problemas complexos e habilidades em DevOps com Dokploy para me tornar um desenvolvedor mais completo.
             </p>
-            <p>Todos os tipos de projetos e experimentos que faço estão no meu <a
-                    href="https://github.com/pcampos119104" target="_blank"
-                    class="font-medium underline decoration-primary hover:decoration-2">
+            <p>Você pode encontrar meu trabalho no <a href="https://github.com/pcampos119104" target="_blank"
+                                          class="font-medium underline decoration-primary hover:decoration-2">
                 Github</a>.</p>
 
         </div>
@@ -99,7 +91,7 @@
         <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">Habilidades</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
-    <div class="flex gap-3 mt-4">
+    <div class="flex gap-3 mt-4 place-content-center">
         <img class="hidden lg:block w-2/5 h-fit" src="../img/skills.png" alt="skills">
         <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
             <div class="lg:w-40 h-fit border border-gray-400">
@@ -126,12 +118,12 @@
             <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Frameworks</p>
                 <div class=" px-2 py-1 text-gray-400 text-sm">
-                    <p>Django</p>
-                    <p>HTMX</p>
-                    <p>Alpinejs</p>
-                    <p>Tailwindcss</p>
-                    <p>Wagtail</p>
-                    <p>DRF</p>
+                    <p>Django HTMX
+                        Alpinejs
+                        Tailwindcss
+                        Wagtail
+                        DRF
+                        CrewAI</p>
                 </div>
             </div>
             <div class="lg:w-40 h-fit border border-gray-400">
@@ -152,6 +144,83 @@
     </div>
 </section>
 
+<!-- Projects -->
+<section id="projects" class="flex flex-col mt-16 text-white w-full">
+    <div class="flex gap-4">
+        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">Projetos mais relevantes no github</h2>
+        <hr class="w-48 border-1 border-primary self-center">
+    </div>
+    <div class="space-y-1">
+        <div class="flex flex-col lg:flex-row justify-between mt-4">
+            <h3 class="font-bold">CDC</h3>
+        </div>
+        <p class="text-gray-400 font-semibold">Aplicativo de receitas</p>
+        <a href="https://github.com/pcampos119104/cdc" target="_blank"
+           class="font-medium underline decoration-primary hover:decoration-2">
+            github.com/pcampos119104/cdc
+        </a>
+        <p class="text-gray-400">
+            Uma aplicação abrangente de gerenciamento de receitas construída com Wagtail CMS, servindo como plataforma de aprendizado para
+            explorar e implementar tecnologias web modernas. Este projeto evoluiu de uma versão anterior disponível em:
+            <a
+                    href="https://github.com/pcampos119104/magapp" target="_blank"
+                    class="font-medium underline decoration-primary hover:decoration-2">
+                github.com/pcampos119104/magapp
+            </a>
+        </p>
+        <p class="text-gray-400">
+            Construído com backend Django/Wagtail, TailwindCSS e Flowbite para estilização, e PostgreSQL para armazenamento de dados.
+            Recursos ferramentas de desenvolvimento modernas incluindo django-browser-reload para recarregamento automático, django-extensions para
+            comandos de gerenciamento aprimorados, django-storages para manipulação de arquivos na nuvem, e testes abrangentes com pytest
+            e ruff para qualidade do código. Usa notebooks Marimo para prototipagem de soluções e experimentação.
+        </p>
+        <p class="text-gray-400">
+            Infraestrutura inclui Docker Compose para desenvolvimento local simplificado e Just para automação de comandos.
+            Atualmente implantado em um VPS Digital Ocean com orquestração Dokploy. Ativamente migrando para uma configuração homelab
+            com acesso via túnel Cloudflare, Rustfs para armazenamento, Dockerfiles multi-estágio, GitHub Container Registry, e
+            pipelines CI/CD com GitHub Actions. Integração futura planejada com CrewAI para processamento aprimorado de receitas.
+        </p>
+    </div>
+    <div class="space-y-1 mt-10">
+        <div class="flex flex-col lg:flex-row justify-between mt-4">
+            <h3 class="font-bold">PDRF</h3>
+        </div>
+        <p class="text-gray-400 font-semibold">Processador de Receitas (CrewAI)</p>
+        <a href="https://github.com/pcampos119104/pdrf" target="_blank"
+           class="font-medium underline decoration-primary hover:decoration-2">
+            github.com/pcampos119104/pdrf
+        </a>
+        <p class="text-gray-400">
+            Aplicativo multi-agente para formatação e edição de receitas usando framework CrewAI. Este projeto demonstra
+            o poder de agentes de IA colaborativos trabalhando juntos para processar e aprimorar conteúdo de receitas.
+        </p>
+        <p class="text-gray-400">
+            Construído com CrewAI para orquestração de agentes, UV para gerenciamento de dependências, e Docker para conteinerização.
+            Recursos agentes e tarefas configuráveis através de arquivos YAML, facilitando a personalização do fluxo de processamento de receitas.
+        </p>
+    </div>
+    <div class="space-y-1 mt-10">
+        <div class="flex flex-col lg:flex-row justify-between mt-4">
+            <h3 class="font-bold">PDRL</h3>
+        </div>
+        <p class="text-gray-400 font-semibold">Processador de Receitas (LangChain)</p>
+        <a href="https://github.com/pcampos119104/pdrl" target="_blank"
+           class="font-medium underline decoration-primary hover:decoration-2">
+            github.com/pcampos119104/pdrl
+        </a>
+        <p class="text-gray-400">
+            Aplicativo de processamento de receitas com IA usando LangChain e LangGraph com Ollama. Uma migração do
+            fluxo de trabalho CrewAI para explorar diferentes arquiteturas multi-agente para formatação e edição de receitas.
+        </p>
+        <p class="text-gray-400">
+            Usa LangChain para integração LLM, LangGraph para orquestração de agentes, e Ollama para execução de modelos de IA locais.
+            Recursos gerenciamento de configuração Hydra e suporta tanto desenvolvimento local com Docker
+            quanto implantação em produção com Dokploy.
+        </p>
+    </div>
+
+</section>
+
 <!-- Experience -->
 <section id="experience" class="flex flex-col mt-16 text-white w-full">
     <div class="flex gap-4">
@@ -161,28 +230,27 @@
     <div class="space-y-1">
         <div class="flex flex-col lg:flex-row justify-between mt-4">
             <h3 class="font-bold">DESENVOLVEDOR WEB</h3>
-            <p class="text-primary">Julho 2023 - Fevereiro 2024</p>
+            <p class="text-primary">Julho 2024 - Fevereiro 2025</p>
         </div>
         <p class="text-gray-400 font-semibold">TITAN, REMOTO, COLORADO, EUA</p>
-        <p class="text-gray-400">Foram 2 projetos, o produto web da empresa, nofie.com, e o blog com Wagtail; no site
-            trabalhei refatorando o front de Vuejs para django template com HTMX, TailwindCSS e AlpineJS. Usei também outras
-            bibliotecas como MapBox, DaterangerPicker, and Handlebars.
-        </p>
-        <p class="text-gray-400">No Wagtail foi construído o blog usando HTMX e TailwindCSS com o design do figma criado
-            pelo designer.</p>
+        <p class="text-gray-400">Foram 2 projetos para o site nofie.com; trabalhei na porção "frontend"
+            do app.</p>
+        <p class="text-gray-400">Um com Wagtail criou muitos layouts com Tailwind, seguindo um design do Figma criado por um
+            designer. O objetivo era criar um blog para o produto.</p>
+        <p class="text-gray-400">O outro projeto foi um puro Django para construir o produto em si. Trabalhei com
+            Django, HTMX, Tailwind CSS, JS, AlpineJS, MapBox, DaterangerPicker, e Handlebars. Especificações do Figma
+            foram criadas por um designer e implementadas todas por mim.</p>
     </div>
     <div class="space-y-1 mt-10">
         <div class="flex flex-col lg:flex-row justify-between mt-2">
             <h3 class="font-bold">DESENVOLVEDOR BACKEND</h3>
-            <p class="text-primary">Fevereiro 2022 - Abril 2023</p>
+            <p class="text-primary">Fevereiro 2023 - Abril 2024</p>
         </div>
         <p class="text-gray-400 font-semibold">XNV, REMOTO, TEXAS, EUA</p>
-        <p class="text-gray-400">Desenvolvedor Backend usado Django Rest Framework.</p>
-        <p class="text-gray-400">Responsável por análise e implementação de novas funcionalidades no sistema,
-    além de correções de bugs.</p>
-        <p class="text-gray-400">Tive a iniciativa de implementar Pytest, Pre-commit, sphynx, jupyterLab(no contexto do
-            django),
-            Swagger para documentação e docker para agilizar o desenvolvimento e melhorar a saúde do sistema.</p>
+        <p class="text-gray-400">Desenvolvedor Python backend usando Django Rest Framework e seguindo a arquitetura Restful.</p>
+        <p class="text-gray-400">Responsável por análise e implementação de novas funcionalidades no sistema, correções de bugs.</p>
+        <p class="text-gray-400">Tive a iniciativa de atualizar o código para usar Pytest, Pre-commit, sphynx, jupyterLab(no
+            kernel django) Swagger e docker compose para melhorar a saúde do sistema e agilidade da equipe.</p>
     </div>
     <div class="space-y-1 mt-10">
         <div class="flex flex-col lg:flex-row justify-between mt-2">
@@ -213,7 +281,7 @@
                       clip-rule="evenodd"/>
             </svg>
 
-            <p>São Paulo, Brasil</p>
+            <p>São Paulo, Brazil</p>
         </div>
 
         <div class="flex space-x-1 before:content-['>'] before:text-green-500 font-bold">
@@ -257,7 +325,7 @@
 <hr class="w-full border-1 border-primary self-center mt-12">
 <!-- Footer -->
 <footer class="h-32 text-gray-400 w-full mt-4 pl-4  text-sm ">
-    <p>Construido com HTML & Tailwind CSS.</p>
+    <p>Construído com HTML &amp; Tailwind CSS.</p>
     <p>Agradeço ao <a href="https://eliasdevis.github.io/" class="font-bold" target="_blank">Elias</a>
         por compartilhar <a
                 href="https://www.figma.com/community/file/1164933568884615740" class="font-bold" target="_blank">este
