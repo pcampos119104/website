@@ -3,47 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#27272a">
+    
+    <!-- SEO Meta Tags -->
+    <title>Pedro Campos | Python Developer &amp; Django Expert | São Paulo</title>
+    <meta name="description" content="Python Developer specializing in Django, HTMX, Tailwind CSS, and Agentic AI systems with CrewAI. Expert in modern web development. Based in São Paulo, Brazil.">
+    <meta name="keywords" content="Python developer, Django, HTMX, Tailwind CSS, CrewAI, web developer, backend developer, Brazil, São Paulo">
+    <meta name="author" content="Pedro Campos">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.pcampos.com.br/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheet -->
     <link href="./output.css" rel="stylesheet">
-    <title>/Pedro Campos</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.pcampos.com.br/">
+    <meta property="og:title" content="Pedro Campos | Python Developer &amp; Django Expert">
+    <meta property="og:description" content="Python Developer specializing in Django, HTMX, Tailwind CSS, and Agentic AI systems. Expert in modern web development based in São Paulo, Brazil.">
+    <meta property="og:image" content="https://www.pcampos.com.br/img/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.pcampos.com.br/">
+    <meta name="twitter:title" content="Pedro Campos | Python Developer &amp; Django Expert">
+    <meta name="twitter:description" content="Python Developer specializing in Django, HTMX, Tailwind CSS, and Agentic AI systems. Expert in modern web development.">
+    <meta name="twitter:image" content="https://www.pcampos.com.br/img/og-image.jpg">
+    
+    <!-- Alternate language -->
+    <link rel="alternate" hreflang="pt-BR" href="https://www.pcampos.com.br/pt/">
+    <link rel="alternate" hreflang="en" href="https://www.pcampos.com.br/">
+    
+    <!-- JSON-LD Structured Data - Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pedro Campos",
+        "jobTitle": "Python Developer",
+        "url": "https://www.pcampos.com.br",
+        "image": "https://www.pcampos.com.br/img/perfil_social_bw.webp",
+        "description": "Python Developer specializing in Django, HTMX, Tailwind CSS, and Agentic AI systems with CrewAI.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "São Paulo",
+            "addressCountry": "BR"
+        },
+        "sameAs": [
+            "https://github.com/pcampos119104",
+            "https://linkedin.com/in/pcampos119104",
+            "https://dev.to/pcampos119104"
+        ],
+        "knowsAbout": ["Python", "Django", "HTMX", "Tailwind CSS", "Alpine.js", "CrewAI", "PostgreSQL", "Docker", "DevOps"]
+    }
+    </script>
+    
+    <!-- JSON-LD Structured Data - CreativeWorks (Projects) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {
+                "@type": "CreativeWork",
+                "name": "CDC",
+                "description": "Recipe management application built with Wagtail CMS, Django, TailwindCSS, and PostgreSQL",
+                "url": "https://github.com/pcampos119104/cdc",
+                "author": {
+                    "@type": "Person",
+                    "name": "Pedro Campos"
+                },
+                "programmingLanguage": ["Python", "Django", "JavaScript"],
+                "license": "MIT"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PDRF",
+                "description": "Multi-agent app for formatting and editing recipes using CrewAI framework",
+                "url": "https://github.com/pcampos119104/pdrf",
+                "author": {
+                    "@type": "Person",
+                    "name": "Pedro Campos"
+                },
+                "programmingLanguage": ["Python", "CrewAI"],
+                "license": "MIT"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PDRL",
+                "description": "AI-powered recipe processing using LangChain and LangGraph with Ollama",
+                "url": "https://github.com/pcampos119104/pdrl",
+                "author": {
+                    "@type": "Person",
+                    "name": "Pedro Campos"
+                },
+                "programmingLanguage": ["Python", "LangChain"],
+                "license": "MIT"
+            }
+        ]
+    }
+    </script>
 </head>
 <body class="bg-background flex flex-col items-center max-w-[1024px] m-auto px-4 lg:px-24 font-firacode">
+<main>
 <!-- Header -->
 <header class="hidden h-16 lg:flex flex-col-reverse w-full">
     <div class="flex flex-row justify-between">
         <p class="font-bold text-primary "> \Pedro Campos</p>
-        <div class="flex flex-row space-x-10">
-            <a href="#skills" class="text-gray-400 before:content-['#'] before:text-primary">skills</a>
-            <a href="#projects" class="text-gray-400 before:content-['#'] before:text-primary">projects</a>
-            <a href="#experience" class="text-gray-400 before:content-['#'] before:text-primary">experience</a>
-            <a href="#contact" class="text-gray-400 before:content-['#'] before:text-primary">contacts</a>
-            <a href="pt/index.html" class="text-gray-400 ">Português</a>
-        </div>
+        <nav aria-label="Main navigation">
+            <div class="flex flex-row space-x-10">
+                <a href="#skills" class="text-gray-400 before:content-['#'] before:text-primary">skills</a>
+                <a href="#projects" class="text-gray-400 before:content-['#'] before:text-primary">projects</a>
+                <a href="#experience" class="text-gray-400 before:content-['#'] before:text-primary">experience</a>
+                <a href="#contact" class="text-gray-400 before:content-['#'] before:text-primary">contacts</a>
+                <a href="pt/index.html" hreflang="pt-BR" lang="pt-BR" class="text-gray-400 ">Português</a>
+            </div>
+        </nav>
     </div>
 </header>
 
 <!-- Hero -->
 <section class="flex flex-col-reverse lg:flex-row gap-2 text-white mt-20 w-full">
     <div>
-        <p class="text-4xl font-semibold">
+        <h1 class="text-4xl font-semibold">
             Pedro is a <span class="text-primary">Python developer</span> specializing in <span
                 class="text-primary">Django</span> and expanding to <span class="text-primary">Agentic systems</span>
-        </p>
+        </h1>
         <p class="text-gray-400 mt-10 mb-6">He crafts modern, dynamic web applications with HTMX, Alpine.js, and
             TailwindCSS and agentic systems with Crewai.</p>
         <a href="#contact" class="border border-primary p-1 px-2 hover:bg-primary/25 font-medium">Contact me!!</a>
     </div>
     <div class="max-w-[300px] max-h-[300px] overflow-hidden self-center lg:self-auto border-b-2 border-primary ">
-        <img class="" src="img/perfil_social_bw.webp" alt="">
+        <img src="img/perfil_social_bw.webp" alt="Pedro Campos - Python Developer profile photo" width="300" height="300">
     </div>
 </section>
 
 <!-- Quote -->
-<section class="flex mt-16 place-content-center w-full">
+<section class="flex mt-16 place-content-center w-full" aria-label="Favorite quote">
     <div class="flex flex-col w-fit">
         <div class="relative border font-semibold border-gray-400 text-2xl">
-            <span class="absolute -top-4 left-2 text-6xl h-7 text-gray-400 bg-background">"</span>
+            <span class="absolute -top-4 left-2 text-6xl h-7 text-gray-400 bg-background" aria-hidden="true">"</span>
             <p class="text-white m-4">Simplicity is the ultimate sophistication.</p>
-            <span class="absolute -bottom-4 right-2 text-6xl h-7 text-gray-400 bg-background">"</span>
+            <span class="absolute -bottom-4 right-2 text-6xl h-7 text-gray-400 bg-background" aria-hidden="true">"</span>
         </div>
         <div class="relative border-x border-b border-gray-400 w-fit self-end">
             <p class="text-white m-2 align-self-end">Leonardo da Vinci</p>
@@ -52,9 +163,9 @@
 </section>
 
 <!-- About me -->
-<section id="aboutme" class="flex flex-col mt-16 text-white w-full">
+<section id="aboutme" class="flex flex-col mt-16 text-white w-full" aria-labelledby="aboutme-heading">
     <div class="flex gap-4">
-        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">About me</h2>
+        <h2 id="aboutme-heading" class="text-3xl font-medium before:content-['#'] before:text-primary">About me</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
     <div class="flex flex-col-reverse lg:flex-row gap-4 place-content-between mt-4">
@@ -70,7 +181,7 @@
                 Github</a>.</p>
 
         </div>
-        <div class="lg:w-2/5 h-fit max-w-[457px] max-h-[386px] self-center lg:self-auto">
+        <div class="lg:w-2/5 h-fit max-w-[457px] max-h-[386px] self-center lg:self-auto" aria-hidden="true">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="300" height="300" viewBox="0,0,256,256">
                 <g fill="#00c950" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -86,13 +197,13 @@
 </section>
 
 <!-- Skills -->
-<section id="skills" class="flex flex-col mt-16 text-white w-full">
+<section id="skills" class="flex flex-col mt-16 text-white w-full" aria-labelledby="skills-heading">
     <div class="flex gap-4">
-        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">Skills</h2>
+        <h2 id="skills-heading" class="text-3xl font-medium before:content-['#'] before:text-primary">Skills</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
     <div class="flex gap-3 mt-4 place-content-center">
-        <img class="hidden lg:block w-2/5 h-fit" src="img/skills.png" alt="skills">
+        <img class="hidden lg:block w-2/5 h-fit" src="img/skills.png" alt="Technical skills and technologies including Python, Django, HTMX, Tailwind CSS, PostgreSQL, Docker, and DevOps tools" width="400" height="300" loading="lazy">
         <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
             <div class="lg:w-40 h-fit border border-gray-400">
                 <p class="border-b font-semibold border-gray-400 px-2 py-1 ">Languages</p>
@@ -145,25 +256,24 @@
 </section>
 
 <!-- Projects -->
-<section id="projects" class="flex flex-col mt-16 text-white w-full">
+<section id="projects" class="flex flex-col mt-16 text-white w-full" aria-labelledby="projects-heading">
     <div class="flex gap-4">
-        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">Most relevant github projects</h2>
+        <h2 id="projects-heading" class="text-3xl font-medium before:content-['#'] before:text-primary">Most relevant github projects</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
     <div class="space-y-1">
-        <div class="flex flex-col lg:flex-row justify-between mt-4">
+        <article class="flex flex-col lg:flex-row justify-between mt-4">
             <h3 class="font-bold">CDC</h3>
-        </div>
+        </article>
         <p class="text-gray-400 font-semibold">Recipe app</p>
-        <a href="https://github.com/pcampos119104/cdc" target="_blank"
-           class="font-medium underline decoration-primary hover:decoration-2">
+        <a href="https://github.com/pcampos119104/cdc" target="_blank" rel="noopener noreferrer" class="font-medium underline decoration-primary hover:decoration-2">
             github.com/pcampos119104/cdc
         </a>
         <p class="text-gray-400">
             A comprehensive recipe management application built with Wagtail CMS, serving as a learning platform to
             explore and implement modern web technologies. This project evolved from an earlier version available at:
             <a
-                    href="https://github.com/pcampos119104/magapp" target="_blank"
+                    href="https://github.com/pcampos119104/magapp" target="_blank" rel="noopener noreferrer"
                     class="font-medium underline decoration-primary hover:decoration-2">
                 github.com/pcampos119104/magapp
             </a>
@@ -181,12 +291,12 @@
             CI/CD pipelines with GitHub Actions. Future integration planned with CrewAI for enhanced recipe processing.
         </p>
     </div>
-    <div class="space-y-1 mt-10">
+    <article class="space-y-1 mt-10">
         <div class="flex flex-col lg:flex-row justify-between mt-4">
             <h3 class="font-bold">PDRF</h3>
         </div>
         <p class="text-gray-400 font-semibold">Recipe Processor (CrewAI)</p>
-        <a href="https://github.com/pcampos119104/pdrf" target="_blank"
+        <a href="https://github.com/pcampos119104/pdrf" target="_blank" rel="noopener noreferrer"
            class="font-medium underline decoration-primary hover:decoration-2">
             github.com/pcampos119104/pdrf
         </a>
@@ -198,13 +308,13 @@
             Built with CrewAI for agent orchestration, UV for dependency management, and Docker for containerization.
             Features configurable agents and tasks through YAML files, making it easy to customize the recipe processing workflow.
         </p>
-    </div>
-    <div class="space-y-1 mt-10">
+    </article>
+    <article class="space-y-1 mt-10">
         <div class="flex flex-col lg:flex-row justify-between mt-4">
             <h3 class="font-bold">PDRL</h3>
         </div>
         <p class="text-gray-400 font-semibold">Recipe Processor (LangChain)</p>
-        <a href="https://github.com/pcampos119104/pdrl" target="_blank"
+        <a href="https://github.com/pcampos119104/pdrl" target="_blank" rel="noopener noreferrer"
            class="font-medium underline decoration-primary hover:decoration-2">
             github.com/pcampos119104/pdrl
         </a>
@@ -217,45 +327,44 @@
             execution. Features Hydra configuration management and supports both local development with Docker
             and production deployment with Dokploy.
         </p>
-    </div>
+    </article>
 
 </section>
 
 <!-- Experience -->
-<section id="experience" class="flex flex-col mt-16 text-white w-full">
+<section id="experience" class="flex flex-col mt-16 text-white w-full" aria-labelledby="experience-heading">
     <div class="flex gap-4">
-        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">Last relevant experiences</h2>
+        <h2 id="experience-heading" class="text-3xl font-medium before:content-['#'] before:text-primary">Last relevant experiences</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
-    <div class="space-y-1">
+    <article class="space-y-1">
         <div class="flex flex-col lg:flex-row justify-between mt-4">
             <h3 class="font-bold">WEB DEVELOPER</h3>
             <p class="text-primary">July 2024 - February 2025</p>
         </div>
-        <p class="text-gray-400 font-semibold">TITAN, REMOTE, COLORADO, EUA</p>
-        <p class="text-gray-400">It's been in 2 projects for the website nofie.com; I’ve worked in the “frontend”
+        <p class="text-gray-400 font-semibold">TITAN, REMOTE, COLORADO, USA</p>
+        <p class="text-gray-400">It's been in 2 projects for the website nofie.com; I've worked in the "frontend"
             portion of the app.</p>
         <p class="text-gray-400">One with Wagtail created a lot of layouts with Tailwind, following a Figma design by a
             designer. The goal was to create a blog for the product.</p>
         <p class="text-gray-400">The other project was a pure Django project to build the product itself. I worked with
             Django, HTMX, Tailwind CSS, JS, AlpineJS, MapBox, DaterangerPicker, and Handlebars. Figma specifications
             were created by a designer and implemented all by myself.</p>
-        </p>
-    </div>
-    <div class="space-y-1 mt-10">
+    </article>
+    <article class="space-y-1 mt-10">
         <div class="flex flex-col lg:flex-row justify-between mt-2">
             <h3 class="font-bold">BACKEND DEVELOPER</h3>
             <p class="text-primary">February 2023 - April 2024</p>
         </div>
-        <p class="text-gray-400 font-semibold">XNV, REMOTE, TEXAS, EUA</p>
+        <p class="text-gray-400 font-semibold">XNV, REMOTE, TEXAS, USA</p>
         <p class="text-gray-400">Backend Python developer using Django Rest Framework and following the Restful
             architecture.</p>
         <p class="text-gray-400">Responsible for analysis and implementation of new features in the system, bug
             corrections.</p>
         <p class="text-gray-400">I've the initiative to update the code to use Pytest, Pre-commit, sphynx, jupyterLab(on
             django kernel) Swagger and docker compose to improve system health and team agility.</p>
-    </div>
-    <div class="space-y-1 mt-10">
+    </article>
+    <article class="space-y-1 mt-10">
         <div class="flex flex-col lg:flex-row justify-between mt-2">
             <h3 class="font-bold">WEB DEVELOPER</h3>
             <p class="text-primary">January 2021 - January 2022</p>
@@ -266,20 +375,20 @@
         <p class="text-gray-400">Built small side projects for the company using python, peewee orm with sqlite and
             Click
             for input.</p>
-    </div>
+    </article>
 </section>
 
 
 <!-- Contact -->
-<section id="contact" class="flex flex-col mt-16 text-white w-full">
+<section id="contact" class="flex flex-col mt-16 text-white w-full" aria-labelledby="contact-heading">
     <div class="flex gap-4">
-        <h2 class="text-3xl font-medium before:content-['#'] before:text-primary">Contact</h2>
+        <h2 id="contact-heading" class="text-3xl font-medium before:content-['#'] before:text-primary">Contact</h2>
         <hr class="w-48 border-1 border-primary self-center">
     </div>
     <div class="grid lg:grid-cols-2 gap-y-2 mt-4">
         <div class="flex space-x-1 before:content-['>'] before:text-green-500 before:font-bold">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                 class="fill-gray-100 size-6">
+                 class="fill-gray-100 size-6" aria-hidden="true">
                 <path fill-rule="evenodd"
                       d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
                       clip-rule="evenodd"/>
@@ -289,7 +398,7 @@
         </div>
         <div class="flex space-x-1 before:content-['>'] before:text-green-500 font-bold">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                 class="fill-gray-100 size-6">
+                 class="fill-gray-100 size-6" aria-hidden="true">
                 <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"/>
                 <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"/>
             </svg>
@@ -301,25 +410,25 @@
         </div>
         <div class="flex space-x-1 before:content-['>'] before:text-green-500 font-bold">
             <svg class="size-6 fill-gray-100" width="64px" height="64px" viewBox="0 0 32 32" version="1.1"
-                 xmlns="http://www.w3.org/2000/svg">
+                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                 <g id="SVGRepo_iconCarrier"><title>linkedin</title>
                     <path d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z"></path>
                 </g>
             </svg>
-            <a href="https://linkedin.com/in/pcampos119104" target="_blank"
-               class="font-medium underline decoration-primary hover:decoration-2">
+            <a href="https://linkedin.com/in/pcampos119104" target="_blank" rel="me noopener noreferrer"
+               class="font-medium underline decoration-primary hover:decoration-2" aria-label="LinkedIn profile">
                 linkedin.com/in/pcampos119104
             </a>
         </div>
         <div class="flex space-x-1 before:content-['>'] before:text-green-500 font-bold">
             <svg class="fill-gray-100 size-6" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
-                 height="100" viewBox="0 0 30 30">
+                 height="100" viewBox="0 0 30 30" aria-hidden="true">
                 <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
             </svg>
-            <a href="https://github.com/pcampos119104" target="_blank"
-               class="font-medium underline decoration-primary hover:decoration-2">
+            <a href="https://github.com/pcampos119104" target="_blank" rel="me noopener noreferrer"
+               class="font-medium underline decoration-primary hover:decoration-2" aria-label="GitHub profile">
                 github.com/pcampos119104
             </a>
         </div>
@@ -328,12 +437,13 @@
 <hr class="w-full border-1 border-primary self-center mt-12">
 <!-- Footer -->
 <footer class="h-32 text-gray-400 w-full mt-4 pl-4  text-sm ">
-    <p>Built with HTML & Tailwind CSS.</p>
-    <p>Special Thanks to <a href="https://eliasdevis.github.io/" class="font-bold" target="_blank">Elias</a>
+    <p>Built with HTML &amp; Tailwind CSS.</p>
+    <p>Special Thanks to <a href="https://eliasdevis.github.io/" class="font-bold" target="_blank" rel="noopener noreferrer">Elias</a>
         for sharing <a
-                href="https://www.figma.com/community/file/1164933568884615740" class="font-bold" target="_blank">this
+                href="https://www.figma.com/community/file/1164933568884615740" class="font-bold" target="_blank" rel="noopener noreferrer">this
             UI/UX</a> design
         with Figma Community.</p>
 </footer>
+</main>
 </body>
 </html>
