@@ -152,26 +152,14 @@
           },
           {
             "@type": "CreativeWork",
-            "name": "PDRF",
-            "description": "Aplicativo multi-agente para formatação e edição de receitas usando framework CrewAI",
-            "url": "https://github.com/pcampos119104/pdrf",
+            "name": "MDC",
+            "description": "Sistema de gerenciamento de membros de igreja construído como monorepo Django com desenvolvimento local em Docker, armazenamento privado de mídia, email de produção, monitoramento e automação de CI/CD",
+            "url": "https://github.com/pcampos119104/mdc",
             "author": {
               "@type": "Person",
               "name": "Pedro Campos"
             },
-            "programmingLanguage": ["Python", "CrewAI"],
-            "license": "MIT"
-          },
-          {
-            "@type": "CreativeWork",
-            "name": "PDRL",
-            "description": "Aplicativo de processamento de receitas com IA usando LangChain e LangGraph com Ollama",
-            "url": "https://github.com/pcampos119104/pdrl",
-            "author": {
-              "@type": "Person",
-              "name": "Pedro Campos"
-            },
-            "programmingLanguage": ["Python", "LangChain"],
+            "programmingLanguage": ["Python", "Django", "Docker"],
             "license": "MIT"
           }
         ]
@@ -540,58 +528,33 @@
         </div>
         <article class="space-y-1 mt-10">
           <div class="flex flex-col lg:flex-row justify-between mt-4">
-            <h3 class="font-bold">PDRF</h3>
+            <h3 class="font-bold">MDC</h3>
           </div>
           <p class="text-gray-400 font-semibold">
-            Processador de Receitas (CrewAI)
+            Gerenciamento de membros de igreja
           </p>
           <a
-            href="https://github.com/pcampos119104/pdrf"
+            href="https://github.com/pcampos119104/mdc"
             target="_blank"
             rel="noopener noreferrer"
             class="font-medium underline decoration-primary hover:decoration-2"
           >
-            github.com/pcampos119104/pdrf
+            github.com/pcampos119104/mdc
           </a>
           <p class="text-gray-400">
-            Aplicativo multi-agente para formatação e edição de receitas usando
-            framework CrewAI. Este projeto demonstra o poder de agentes de IA
-            colaborativos trabalhando juntos para processar e aprimorar conteúdo
-            de receitas.
+            Sistema de gerenciamento de membros de igreja organizado como
+            monorepo com uma aplicação web Django. O projeto foca em fluxos
+            práticos de administração de membros, mantendo a configuração local
+            simples com Docker Compose, UV, automação de comandos com Just, e os
+            recursos de admin e contas do Django.
           </p>
           <p class="text-gray-400">
-            Construído com CrewAI para orquestração de agentes, UV para
-            gerenciamento de dependências, e Docker para conteinerização.
-            Recursos agentes e tarefas configuráveis através de arquivos YAML,
-            facilitando a personalização do fluxo de processamento de receitas.
-          </p>
-        </article>
-        <article class="space-y-1 mt-10">
-          <div class="flex flex-col lg:flex-row justify-between mt-4">
-            <h3 class="font-bold">PDRL</h3>
-          </div>
-          <p class="text-gray-400 font-semibold">
-            Processador de Receitas (LangChain)
-          </p>
-          <a
-            href="https://github.com/pcampos119104/pdrl"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-medium underline decoration-primary hover:decoration-2"
-          >
-            github.com/pcampos119104/pdrl
-          </a>
-          <p class="text-gray-400">
-            Aplicativo de processamento de receitas com IA usando LangChain e
-            LangGraph com Ollama. Uma migração do fluxo de trabalho CrewAI para
-            explorar diferentes arquiteturas multi-agente para formatação e
-            edição de receitas.
-          </p>
-          <p class="text-gray-400">
-            Usa LangChain para integração LLM, LangGraph para orquestração de
-            agentes, e Ollama para execução de modelos de IA locais. Recursos
-            gerenciamento de configuração Hydra e suporta tanto desenvolvimento
-            local com Docker quanto implantação em produção com Dokploy.
+            As preocupações de produção são tratadas de forma explícita:
+            migrações opcionais na inicialização, configuração de email SMTP com
+            Resend, armazenamento privado de fotos de membros por RustFS
+            compatível com S3 usando URLs assinadas, relatório de erros com
+            Sentry, e pipelines GitHub Actions que executam testes e publicam
+            imagens Docker no GitHub Container Registry.
           </p>
         </article>
       </section>

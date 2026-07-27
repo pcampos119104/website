@@ -153,26 +153,14 @@
           },
           {
             "@type": "CreativeWork",
-            "name": "PDRF",
-            "description": "Multi-agent app for formatting and editing recipes using CrewAI framework",
-            "url": "https://github.com/pcampos119104/pdrf",
+            "name": "MDC",
+            "description": "Church member management system built as a Django monorepo with Docker-based local development, private media storage, production email, monitoring, and CI/CD automation",
+            "url": "https://github.com/pcampos119104/mdc",
             "author": {
               "@type": "Person",
               "name": "Pedro Campos"
             },
-            "programmingLanguage": ["Python", "CrewAI"],
-            "license": "MIT"
-          },
-          {
-            "@type": "CreativeWork",
-            "name": "PDRL",
-            "description": "AI-powered recipe processing using LangChain and LangGraph with Ollama",
-            "url": "https://github.com/pcampos119104/pdrl",
-            "author": {
-              "@type": "Person",
-              "name": "Pedro Campos"
-            },
-            "programmingLanguage": ["Python", "LangChain"],
+            "programmingLanguage": ["Python", "Django", "Docker"],
             "license": "MIT"
           }
         ]
@@ -532,55 +520,30 @@
         </div>
         <article class="space-y-1 mt-10">
           <div class="flex flex-col lg:flex-row justify-between mt-4">
-            <h3 class="font-bold">PDRF</h3>
+            <h3 class="font-bold">MDC</h3>
           </div>
-          <p class="text-gray-400 font-semibold">Recipe Processor (CrewAI)</p>
+          <p class="text-gray-400 font-semibold">Church Member Management</p>
           <a
-            href="https://github.com/pcampos119104/pdrf"
+            href="https://github.com/pcampos119104/mdc"
             target="_blank"
             rel="noopener noreferrer"
             class="font-medium underline decoration-primary hover:decoration-2"
           >
-            github.com/pcampos119104/pdrf
+            github.com/pcampos119104/mdc
           </a>
           <p class="text-gray-400">
-            Multi-agent app for formatting and editing recipes using CrewAI
-            framework. This project demonstrates the power of collaborative AI
-            agents working together to process and enhance recipe content.
+            Church member management system organized as a monorepo with a
+            Django web application. The project focuses on practical member
+            administration workflows while keeping the local setup simple with
+            Docker Compose, UV, Just command automation, and Django's admin and
+            account features.
           </p>
           <p class="text-gray-400">
-            Built with CrewAI for agent orchestration, UV for dependency
-            management, and Docker for containerization. Features configurable
-            agents and tasks through YAML files, making it easy to customize the
-            recipe processing workflow.
-          </p>
-        </article>
-        <article class="space-y-1 mt-10">
-          <div class="flex flex-col lg:flex-row justify-between mt-4">
-            <h3 class="font-bold">PDRL</h3>
-          </div>
-          <p class="text-gray-400 font-semibold">
-            Recipe Processor (LangChain)
-          </p>
-          <a
-            href="https://github.com/pcampos119104/pdrl"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-medium underline decoration-primary hover:decoration-2"
-          >
-            github.com/pcampos119104/pdrl
-          </a>
-          <p class="text-gray-400">
-            AI-powered recipe processing application using LangChain and
-            LangGraph with Ollama. A migration from CrewAI workflow to explore
-            different multi-agent architectures for recipe formatting and
-            editing.
-          </p>
-          <p class="text-gray-400">
-            Uses LangChain for LLM integration, LangGraph for agent
-            orchestration, and Ollama for local AI model execution. Features
-            Hydra configuration management and supports both local development
-            with Docker and production deployment with Dokploy.
+            Production concerns are handled explicitly: optional startup
+            migrations, SMTP email configuration with Resend, private member
+            photo storage through S3-compatible RustFS using presigned URLs,
+            Sentry error reporting, and GitHub Actions pipelines that run tests
+            and publish Docker images to GitHub Container Registry.
           </p>
         </article>
       </section>
