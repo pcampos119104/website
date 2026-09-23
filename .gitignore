@@ -1,3 +1,4 @@
 .idea/
 tailwindcss
 node_modules
+/references
