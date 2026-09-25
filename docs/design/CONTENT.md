@@ -64,7 +64,7 @@ oferecer acesso rápido às principais provas e ao contato.
 ### CTA
 
 - label: `Start a conversation`
-- destino: `mailto:pcampos119104@gmail.com`
+- destino: `mailto:contato@pcampos.com.br`
 
 ### Conteúdo adicional
 
@@ -102,7 +102,7 @@ entrega direta por um desenvolvedor sênior.
 
 ### CTAs
 
-1. `Discuss your project` → `mailto:pcampos119104@gmail.com`
+1. `Discuss your project` → `mailto:contato@pcampos.com.br`
 2. `See selected work` → `#work`
 
 ### Conteúdo que deve aparecer
@@ -495,10 +495,9 @@ capacidade, método e experiência.
 > Tell me about your current workflow, where friction lives, and what you want
 > to automate. Direct conversation, without sales handoffs.
 
-### CTAs
+### CTA
 
-1. `Discuss your project` → `mailto:pcampos119104@gmail.com`
-2. `pcampos119104@gmail.com` → `mailto:pcampos119104@gmail.com`
+`Discuss your project` → `mailto:contato@pcampos.com.br`
 
 ### Conteúdo adicional
 
@@ -523,7 +522,7 @@ e idioma.
 - `Pedro Campos / Independent Software Studio`;
 - `São Paulo, Brazil · Available for Remote Engagements`;
 - Selected Work, Capabilities e Approach;
-- `pcampos119104@gmail.com`;
+- `contato@pcampos.com.br`;
 - LinkedIn: `https://linkedin.com/in/pcampos119104`;
 - GitHub: `https://github.com/pcampos119104`;
 - idiomas EN e PT;

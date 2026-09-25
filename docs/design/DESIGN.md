@@ -411,7 +411,7 @@ screenshots reais e sanitizados dos projetos, mantendo:
 - capabilities, principles, process e foundation em uma coluna;
 - metadata e proof strip em duas colunas;
 - About: retrato antes da narrativa;
-- CTA final: botão e email empilhados e centralizados no próprio controle;
+- CTA final: botão principal centralizado no próprio controle;
 - footer em coluna, com links quebrando linha;
 - padding lateral `20px` e vertical de seção `48px`.
 
@@ -483,7 +483,7 @@ inglês e português. A mudança de idioma não deve alterar a ordem das seçõe
 - analytics: Google tag `G-Z6QQHCDGT0`;
 - canonical EN: `https://www.pcampos.com.br/`;
 - canonical PT-BR: `https://www.pcampos.com.br/pt/`;
-- email: `mailto:pcampos119104@gmail.com`;
+- email: `mailto:contato@pcampos.com.br`;
 - LinkedIn: `https://linkedin.com/in/pcampos119104`;
 - GitHub: `https://github.com/pcampos119104`;
 - MDC: `https://github.com/pcampos119104/mdc`;
