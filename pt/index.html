@@ -222,6 +222,7 @@
         <div class="flex shrink-0 items-center gap-2 md:gap-4">
           <a
             href="../index.html"
+            data-language-choice="en"
             hreflang="en"
             lang="en"
             class="flex min-h-11 min-w-11 items-center justify-center border border-surface-highest px-2 text-xs font-medium uppercase tracking-wider text-ink-muted hover:border-charcoal hover:text-charcoal ui-button"
@@ -1217,6 +1218,7 @@
       >
         <a
           href="../index.html"
+          data-language-choice="en"
           hreflang="en"
           lang="en"
           class="underline underline-offset-4 hover:text-accent"
@@ -1228,5 +1230,19 @@
         >
       </div>
     </footer>
+    <script>
+      document.querySelectorAll("[data-language-choice]").forEach(function (link) {
+        link.addEventListener("click", function () {
+          try {
+            localStorage.setItem(
+              "preferredLanguage",
+              link.dataset.languageChoice,
+            );
+          } catch (error) {
+            // The link still works when storage is unavailable.
+          }
+        });
+      });
+    </script>
   </body>
 </html>
