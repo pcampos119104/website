@@ -45,7 +45,8 @@ em Python e Django.
 ### Princípios aproveitados
 
 - apresentar a operação como studio especializado, não como portfólio pessoal;
-- usar Python/Django como credencial técnica e meio de entrega;
+- usar Python/Django como credencial técnica e meio de entrega, sem substituir o
+  posicionamento principal como software studio;
 - comunicar capacidade de assumir produto e engenharia de ponta a ponta;
 - equilibrar linguagem de negócio com profundidade técnica;
 - tornar trabalhos selecionados parte central da prova de capacidade.
@@ -53,8 +54,8 @@ em Python e Django.
 ### Como foi reinterpretado
 
 O novo site não vende tecnologia isoladamente. A proposta começa pelos fluxos,
-problemas e sistemas do cliente; Python/Django aparece depois, como fundação
-técnica adequada para construir e manter essas soluções.
+problemas e sistemas do cliente; aplicações web, APIs e automação definem a
+oferta, enquanto Python/Django aparece como fundação técnica para construí-la.
 
 ## Leanware
 
@@ -127,9 +128,9 @@ Os princípios combinados resultaram em:
 - posicionamento como **Independent Software Studio**;
 - comunicação founder-led e em primeira pessoa;
 - proposta de valor centrada em operações e objetivos de negócio;
-- destaque para custom web applications, internal systems/tools e business
+- destaque para custom web applications, APIs, integrations e business
   automation;
-- especialização Python/Django tratada como fundação técnica;
+- especialização Python/Django preservada como fundação técnica;
 - homepage editorial, clara e orientada à leitura;
 - paleta restrita, bordas de 1px, quase nenhuma sombra e poucos elementos
   arredondados;

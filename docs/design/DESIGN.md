@@ -35,7 +35,7 @@ body
 ├── main
 │   ├── hero / value proposition
 │   ├── selected work
-│   ├── capabilities
+│   ├── what I build
 │   ├── studio philosophy
 │   ├── process
 │   ├── foundation
@@ -76,7 +76,7 @@ Usar os breakpoints padrão do Tailwind:
 - hero: narrativa `8/12`, practice index `4/12`;
 - cases: texto `6/12`, imagem e metadata `6/12`;
 - about: retrato `4/12`, narrativa `8/12`;
-- capabilities: `2` colunas;
+- what I build: `3` colunas;
 - studio philosophy: `3` colunas;
 - process: `4` colunas;
 - foundation: `3` colunas.
@@ -85,7 +85,7 @@ Usar os breakpoints padrão do Tailwind:
 
 Entre `768px` e `1023px`:
 
-- capabilities: `2` colunas;
+- what I build: `3` colunas;
 - process: `2` colunas;
 - foundation: `2` colunas;
 - proof strip: `4` colunas;
@@ -156,7 +156,7 @@ viewport CSS de `390px` em densidade 2x.
 - títulos de cases e lead do About: Heading médio;
 - títulos de cards: Heading pequeno;
 - parágrafo principal do hero e About: Body grande;
-- descrições de capabilities e princípios: Body padrão;
+- descrições de what I build e princípios: Body padrão;
 - listas técnicas e etapas do processo: Body pequeno;
 - índices, eyebrows, metadata e navegação: Label caps ou `12px` uppercase
   com `letter-spacing: 0.08em`.
@@ -213,7 +213,7 @@ viewport CSS de `390px` em densidade 2x.
 
 ## Navegação
 
-### Desktop e tablet (`>= 768px`)
+### Desktop (`>= 1024px`)
 
 - header sticky em `top: 0`, `z-index: 50`;
 - fundo `#F7F3EA` e borda inferior de 1px;
@@ -223,11 +223,12 @@ viewport CSS de `390px` em densidade 2x.
 - link ativo `Work` com underline/borda inferior de 1px;
 - seletor de idioma e CTA outlined à direita.
 
-### Mobile (`< 768px`)
+### Mobile e tablet (`< 1024px`)
 
 - links de âncora ficam ocultos;
 - wordmark reduzido para `16px`;
-- descriptor `Independent Software Studio` fica oculto abaixo de `640px`;
+- descriptor `Independent Software Studio` fica oculto abaixo de `1280px` para
+  preservar espaço para navegação, idioma e CTA;
 - permanecem `PT` e um CTA compacto `Start a conversation`;
 - o design aprovado não contém menu drawer ou hamburger.
 
@@ -307,11 +308,11 @@ quando o desenho visual interno for mais compacto.
 - metadata: 4 colunas no desktop, 2 no mobile;
 - radius externo de `8px` e sombra de separação quase imperceptível.
 
-### Capability grid
+### What I Build grid
 
-- 2 colunas em `>=768px`, 1 coluna abaixo;
+- 3 colunas em `>=768px`, 1 coluna abaixo;
 - grid desenhado por bordas compartilhadas;
-- padding por item: `24px` mobile e `48px` a partir de `768px`;
+- padding por item: `24px` mobile/tablet e `48px` a partir de `1024px`;
 - hover: fundo de `#FFFFFF` para `#EAF1EF` em `150ms`.
 
 ### Principle cards
@@ -408,7 +409,7 @@ screenshots reais e sanitizados dos projetos, mantendo:
 - hero narrativo antes do practice index;
 - CTAs empilhados;
 - cases: texto antes da imagem e metadata;
-- capabilities, principles, process e foundation em uma coluna;
+- what I build, principles, process e foundation em uma coluna;
 - metadata e proof strip em duas colunas;
 - About: retrato antes da narrativa;
 - CTA final: botão principal centralizado no próprio controle;
@@ -452,7 +453,7 @@ Os nomes abaixo descrevem padrões, não exigem framework JavaScript:
 - `PracticeIndexRow`
 - `CaseStudy`
 - `CaseMetadataGrid`
-- `CapabilityCell`
+- `WhatIBuildCell`
 - `PrincipleCard`
 - `ProcessStep`
 - `FoundationCard`

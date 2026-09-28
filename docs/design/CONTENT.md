@@ -20,10 +20,10 @@ As pendências factuais encontradas estão registradas ao final deste documento.
 
 - Independent Software Studio;
 - operação founder-led;
-- custom web applications;
-- internal systems e internal tools;
-- business automation;
-- especialização em Python/Django;
+- custom web applications e internal systems;
+- REST APIs, integrações e backend services;
+- business automation e data processing;
+- Python/Django como fundação técnica e especialização central;
 - comunicação direta com o desenvolvedor que projeta e constrói o software;
 - tecnologia como meio para resolver problemas operacionais.
 
@@ -32,7 +32,7 @@ As pendências factuais encontradas estão registradas ao final deste documento.
 1. Header e navegação
 2. Hero / value proposition
 3. Selected Work
-4. Capabilities
+4. What I Build
 5. Studio Philosophy
 6. Process
 7. Foundation
@@ -56,7 +56,7 @@ oferecer acesso rápido às principais provas e ao contato.
 ### Navegação
 
 - `Work` → `#work`
-- `Capabilities` → `#capabilities`
+- `What I Build` → `#what-i-build`
 - `Approach` → `#philosophy`
 - `About` → `#about`
 - `Foundation` → `#foundation`
@@ -96,9 +96,9 @@ entrega direta por um desenvolvedor sênior.
 
 ### Supporting copy
 
-> Custom web applications, internal tools, and automation designed and built
-> directly by a senior Python/Django developer. No account managers, no
-> handoffs—direct senior execution from first conversation to production.
+> Custom web applications, APIs, integrations, and business automation designed
+> and built directly by a senior Python/Django developer. Direct senior
+> execution from first conversation to production.
 
 ### CTAs
 
@@ -108,19 +108,17 @@ entrega direta por um desenvolvedor sênior.
 ### Conteúdo que deve aparecer
 
 - nota: `Direct communication from first conversation to production.`;
-- painel `Core Practice Index` com quatro frentes:
-  1. `Scheduled Workflows` — scheduled workflows, report generation e email
-     delivery pipelines;
-  2. `Relational Data Modeling` — PostgreSQL schemas e business logic;
-  3. `Server-Driven Web` — Django templates com HTMX;
-  4. `REST APIs & Tooling` — Python backends, automated tests e Docker;
-- rodapé do painel: `Location & Delivery / São Paulo · Remote Engagements`.
+- painel `Core Focus` com três frentes:
+  1. `Web Applications` — aplicações web e sistemas internos com Django;
+  2. `APIs & Integrations` — conexão entre serviços e dados;
+  3. `Business Automation` — processamento de dados e fluxos recorrentes.
 
 ### Intenção comercial
 
-Mostrar, no primeiro viewport, que a oferta combina entendimento operacional,
-execução técnica sênior e relacionamento direto. A tecnologia sustenta a
-promessa, mas não lidera a mensagem.
+Mostrar, no primeiro viewport, um independent software studio voltado a sistemas
+web, APIs e automação, com entendimento operacional, execução técnica sênior e
+relacionamento direto. Python/Django sustenta a oferta sem definir sozinho o
+posicionamento.
 
 ---
 
@@ -242,20 +240,20 @@ Não usar métricas ou resultados não comprovados.
 
 ---
 
-## 4. Capabilities
+## 4. What I Build
 
 ### Objetivo
 
-Explicar o que o studio constrói em categorias reconhecíveis para compradores de
-software, sem começar por uma lista de tecnologias.
+Explicar o que o studio constrói em três categorias reconhecíveis para
+recrutadores, gestores técnicos e compradores de software.
 
 ### Section label
 
-`02 / Capabilities`
+`02 / What I Build`
 
 ### Headline
 
-`Focused software engineering tailored to core business operations.`
+`Python systems built for real operational work.`
 
 ### CTA
 
@@ -263,40 +261,32 @@ Não há CTA nesta seção.
 
 ### Conteúdo que deve aparecer
 
-#### Custom Web Applications
+#### Web Applications
 
-> When off-the-shelf software forces compromise, bespoke web applications
-> modeled around your operational workflows and data models. Built to endure
-> with Python and Django without unnecessary front-end bloat.
+> Django applications, internal systems, dashboards, and server-driven
+> interfaces shaped around business rules and operational workflows.
 
-Metadata: `Django Framework · Relational Data Modeling · Business Logic Architecture`
+Metadata: `Django · Internal systems · Server-driven interfaces`
 
-#### Internal Tools & Administration
+#### APIs & Integrations
 
-> Purpose-built management portals, administrative consoles, and operational
-> interfaces tailored to how your business actually runs every day.
+> REST APIs and backend integrations that connect services, expose structured
+> data, and keep systems working together.
 
-Metadata: `Django Admin & Custom Portals · Access Control · Reporting Queries`
+Metadata: `Django REST Framework · REST APIs · Service integrations`
 
-#### Scheduled Workflows & Processing
+#### Business Automation
 
-> Automating repetitive business workflows, data extraction, report generation,
-> and transactional email with reliable Python automation and error handling.
+> Python automation for data processing, scheduled tasks, reports, email
+> delivery, and repetitive operational workflows with clear error handling.
 
-Metadata: `Scheduled Tasks · Document & Report Generation · Delivery Pipelines`
-
-#### Backend Systems & REST APIs
-
-> Structured relational database architecture, robust REST endpoints, and
-> service integration built for clarity, testability, and operational stability.
-
-Metadata: `PostgreSQL Modeling · Django REST Framework · RESTful Endpoints`
+Metadata: `Scheduled tasks · Data processing · Reports & delivery`
 
 ### Intenção comercial
 
-Ajudar o visitante a reconhecer o próprio problema dentro de uma capacidade do
-studio e mostrar que a oferta cobre sistemas completos, não apenas tarefas de
-programação.
+Ajudar o visitante a reconhecer rapidamente as três frentes principais da
+atuação em Python, mantendo Django visível sem limitar o posicionamento a um
+único framework.
 
 ---
 
@@ -440,9 +430,10 @@ Dar rosto e credibilidade à operação depois que a oferta já foi estabelecida
 
 ### Supporting copy
 
-> I am Pedro Campos, a senior software engineer based in São Paulo, Brazil, with
-> a background in software development since 2013 and 5+ years of professional
-> Python experience.
+> I am Pedro Campos, a senior software developer based in São Paulo, Brazil,
+> with a background in software development since 2013. Through this independent
+> studio, I build web applications, APIs, and business automation, primarily
+> with Python and Django.
 
 > I run this independent studio to offer business leaders a direct, senior
 > technical partner for critical software initiatives. Having worked remotely
@@ -521,7 +512,7 @@ e idioma.
 
 - `Pedro Campos / Independent Software Studio`;
 - `São Paulo, Brazil · Available for Remote Engagements`;
-- Selected Work, Capabilities e Approach;
+- Selected Work, What I Build e Approach;
 - `contato@pcampos.com.br`;
 - LinkedIn: `https://linkedin.com/in/pcampos119104`;
 - GitHub: `https://github.com/pcampos119104`;
